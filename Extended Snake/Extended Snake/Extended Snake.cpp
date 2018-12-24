@@ -3,10 +3,11 @@
 
 #include "pch.h"
 #include <iostream>
-
+#include "SFML/Graphics.hpp"
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	sf::RenderWindow window(sf::VideoMode(800,200), "Yeet");
+	std::cout << "Finished" << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
